@@ -1,0 +1,1 @@
+Console.WriteLine(Console.ReadLine().Split(' ').Select(x => Math.Pow(int.Parse(x), 2)).Sum() % 10);
