@@ -1,0 +1,15 @@
+Dictionary<string, string> dict = new Dictionary<string, string>();
+dict.Add("A+", "4.3");
+dict.Add("A0", "4.0");
+dict.Add("A-", "3.7");
+dict.Add("B+", "3.3");
+dict.Add("B0", "3.0");
+dict.Add("B-", "2.7");
+dict.Add("C+", "2.3");
+dict.Add("C0", "2.0");
+dict.Add("C-", "1.7");
+dict.Add("D+", "1.3");
+dict.Add("D0", "1.0");
+dict.Add("D-", "0.7");
+dict.Add("F", "0.0");
+Console.WriteLine(dict[Console.ReadLine()]);
