@@ -1,0 +1,1 @@
+Console.WriteLine(Console.ReadLine().Split(' ').Select(x => long.Parse(x)).Sum());
