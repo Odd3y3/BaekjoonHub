@@ -1,0 +1,1 @@
+Console.WriteLine((float)int.Parse(Console.ReadLine())/4.0f);
