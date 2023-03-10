@@ -1,0 +1,1 @@
+Console.WriteLine(int.Parse(Console.ReadLine()) * 8 + int.Parse(Console.ReadLine()) * 3 - 28);
