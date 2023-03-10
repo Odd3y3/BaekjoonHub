@@ -1,0 +1,1 @@
+Console.WriteLine(Console.ReadLine().Split(' ').Select(x => int.Parse(x)).Sum() * 5);
