@@ -1,0 +1,1 @@
+Console.WriteLine(string.Join(' ', Console.ReadLine().Split().Select(int.Parse).OrderBy(x => x)));
