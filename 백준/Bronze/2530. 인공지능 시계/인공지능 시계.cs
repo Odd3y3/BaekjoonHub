@@ -1,0 +1,10 @@
+string[] input = Console.ReadLine().Split();
+int second = int.Parse(Console.ReadLine());
+second += int.Parse(input[0]) * 3600;
+second += int.Parse(input[1]) * 60 + int.Parse(input[2]);
+second = second % 86400;
+int hour = second / 3600;
+second = second % 3600;
+int min = second / 60;
+second = second % 60;
+Console.WriteLine(hour + " " + min + " " + second);
