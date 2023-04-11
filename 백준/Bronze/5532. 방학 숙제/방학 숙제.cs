@@ -1,0 +1,10 @@
+int l = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+int d = int.Parse(Console.ReadLine());
+int x = a / c;
+if (a % c != 0) x++;
+int y = b / d;
+if (b % d != 0) y++;
+Console.WriteLine(l - Math.Max(x, y));
