@@ -1,0 +1,1 @@
+Console.WriteLine(Console.ReadLine().Split().Select(int.Parse).OrderBy(x => x).ToArray()[1]);
